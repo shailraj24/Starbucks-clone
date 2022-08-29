@@ -1,6 +1,6 @@
 ## Intro
 
-Hey there i'm Raj Shailraj and i made this antire New starbucks site
+Hey there i'm Raj Shailraj and i made this antire New starbucks site with only HTML and Tailwind CSS.
 
 ## Outcomes
 
