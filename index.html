@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starbucks</title>
+  <!-- font awsome -->
+  <script src="https://kit.fontawesome.com/654e03e466.js" crossorigin="anonymous"></script>
+
+  <!-- tailwindcss -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="flex justify-between items-center h-24 py-2 px-2">
+    <ul class="left-nav flex justify-between items-center font-semibold text-lg">
+      <li class="px-3">
+        <img class="w-[40px] md:w-[50px] cursor-pointer" src="./images/starbucks-logo.png" alt="logo" />
+      </li>
+      <li class="px-3 hidden md:inline cursor-pointer text-base">MENU</li>
+      <li class="px-3 hidden md:inline cursor-pointer text-base">REWARDS</li>
+      <li class="px-3 hidden md:inline cursor-pointer text-base">
+        GIFT CARDS
+      </li>
+    </ul>
+
+    <ul class="right-nav flex-row hidden md:inline ">
+      <li class="px-3 hidden md:inline hover:text-green-700 cursor-pointer">
+        <i class="px-2 fa-solid fa-location-dot"></i>Find Store
+      </li>
+      <li class="px-3 hidden md:inline">
+        <button type="button"
+          class="px-6 py-2 font-semibold border-2 border-black rounded-full dark:bg-gray-100 dark:text-white-800 cursor-pointer">
+          Sign In
+        </button>
+      </li>
+      <li class="px-3 hidden md:inline">
+        <button type="button" class="px-8 py-2 font-semibold rounded-full bg-black text-white cursor-pointer">
+          Join Now
+        </button>
+      </li>
+    </ul>
+
+    <ul class="right-nav md:hidden flex flex-row">
+      <li class="px-3 text-green-700 hover:text-black cursor-pointer">
+        <i class="text-2xl font-black fa-solid fa-bars"></i>
+      </li>
+    </ul>
+  </header>
+
+  <hr class="bg-slate-200 h-0.5 my-5" />
+
+  <div class="heros mx-1 xl:mx-12">
+    <!-- hero-1 -->
+    <section class="flex flex-col md:flex-row ">
+      <div class="left-rewards flex-1 min-h-[100px] md:min-h-fit">
+        <img src="./images/1.jpg" alt="rewards logo" />
+      </div>
+      <div class="right-rewards flex justify-around items-center flex-col flex-1 bg-[#1E3932] min-h-[150px] md:min-h-fit">
+        <h3 class="text-white text-xl md:text-3xl">
+          Summer is brighter with free treats.*
+        </h3>
+        <button type="button"
+          class="text-sm md:text-base px-6 py-2 font-semibold border-2 border-white rounded-full bg-transparent text-white cursor-pointer">
+          Join Starbucks® Rewards
+        </button>
+      </div>
+    </section>
+
+    <!-- hero-2 -->
+    <section class="mt-8 flex flex-col-reverse md:flex-row ">
+      <div class="left-hero2 flex flex-col flex-1 justify-center items-center bg-[#faaa5a] min-h-[400px] md:min-h-fit">
+        <h1 class="font-semibold text-4xl md:text-6xl text-center mb-6">Back-to-school <br> smiles</h1>
+          <h3 class="text-base md:text-2xl text-center mb-6">A Starbucks eGift makes an A+ treat for <br> students, teachers and school support staff.</h3>
+          <button type="button"
+          class=" text-lg px-4 py-2 font-semibold border-2 border-black rounded-full bg-transparent text-black cursor-pointer">
+          Send an eGift
+        </button>
+      </div>
+      <div class="right-hero2 flex flex-1 min-h-[400px] md:min-h-fit">
+        <img src="./images/2.webp" alt="">
+      </div>
+    </section>
+
+    <!-- hero-3 -->
+    <section class="mt-8 flex flex-col md:flex-row ">
+      <div class="left-hero3 flex flex-1 min-h-[400px] md:min-h-fit">
+        <img src="./images/3.jpg" alt="">
+      </div>
+      <div class="right-hero3 flex flex-col flex-1 justify-center items-center bg-[#fa91aa] min-h-[400px] md:min-h-fit">
+        <h1 class="font-semibold text-4xl md:text-6xl text-center mb-6">Summer’s brightest  <br> new drinks</h1>
+          <h3 class="text-base md:text-2xl text-center mb-6">Introducing the Pineapple Passionfruit Starbucks Refreshers® beverage and the Starbucks® Paradise Drink with creamy coconutmilk.</h3>
+          <button type="button"
+          class=" text-lg px-4 py-2 font-semibold border-2 border-black rounded-full bg-transparent text-black cursor-pointer">
+          Learn more
+        </button>
+      </div>
+    </section>
+
+    <!-- hero-4 -->
+    <section class="mt-8 flex flex-col-reverse md:flex-row ">
+      <div class="p-2 left-hero4 flex flex-col flex-1 justify-center items-center bg-[#f06464] min-h-[400px] md:min-h-fit">
+        <h1 class="text-white font-semibold text-4xl md:text-6xl text-center mb-6">Cold brew for two</h1>
+          <h3 class="text-white text-base md:text-2xl text-center mb-6">Try the new Chocolate Cream Cold Brew with silky, chocolaty cold foam. Or go for a Vanilla Sweet Cream Cold Brew with house-made vanilla-flavored sweet cream.</h3>
+          <button type="button"
+          class=" text-lg px-4 py-2 font-semibold border-2 border-white rounded-full bg-transparent text-white cursor-pointer">
+          Learm more
+        </button>
+      </div>
+      <div class="right-hero4 flex flex-1 min-h-[400px] md:min-h-fit">
+        <img src="./images/4.jpg" alt="">
+      </div>
+    </section>
+
+    <div class="link mt-8 mb-3 text-center text-base md:text-lg">
+      *Starbucks Rewards is available at participating stores. Some restrictions apply. For full program <br> details, visit <a class="underline underline-offset-2" href="https://ineuron.ai/"> starbucks.com/rewards</a>
+    </div>
+
+    <hr class="bg-slate-200 h-0.5 my-6" />
+
+    <footer class="mt-8">
+      <div
+        class="flex flex-col  md:flex-row md:justify-between text-lightText"
+      >
+        <ul>
+          <p class="text-lg md:text-xl font-semibold text-titleText">About us</p>
+          <li class="py-3 hidden md:inline">Our Company</li>
+          <li class="py-3 hidden md:inline">Our Coffee</li>
+          <li class="py-3 hidden md:inline">Stories and News</li>
+          <li class="py-3 hidden md:inline">Customer Service</li>
+        </ul>
+
+        <ul>
+          <p class="text-lg md:text-xl font-semibold text-titleText">Careers</p>
+          <li class="py-3 hidden md:inline">Culture and Values</li>
+          <li class="py-3 hidden md:inline">Inclusion, Diversity and Equity</li>
+          <li class="py-3 hidden md:inline">College Achievement</li>
+          <li class="py-3 hidden md:inline">U.S Careers</li>
+          <li class="py-3 hidden md:inline">Internation Careers</li>
+        </ul>
+
+        <ul>
+          <p class="text-lg md:text-xl font-semibold text-titleText">Social Impact</p>
+          <li class="py-3 hidden md:inline">People</li>
+          <li class="py-3 hidden md:inline">Planet</li>
+          <li class="py-3 hidden md:inline">Environmental and Social <br> Impact Reporting</li>
+        </ul>
+
+        <ul>
+          <p class="text-lg md:text-xl font-semibold text-titleText">For Business Partnerst</p>
+          <li class="py-3 hidden md:inline">Landlord Support Center</li>
+          <li class="py-3 hidden md:inline">Suppliers</li>
+          <li class="py-3 hidden md:inline">Corporate gift card sales</li>
+          <li class="py-3 hidden md:inline">Office and Foodservice Coffee</li>
+        </ul>
+
+        <ul>
+          <p class="text-lg md:text-xl font-semibold text-titleText">Order and Pickup</p>
+          <li class="py-3 hidden md:inline">Order on the App</li>
+          <li class="py-3 hidden md:inline">Order on the Web</li>
+          <li class="py-3 hidden md:inline">Delivery</li>
+          <li class="py-3 hidden md:inline">Order and Pickup</li>
+          <li class="py-3 hidden md:inline">Explore and Find Coffee for Home</li>
+        </ul>
+      </div>
+
+      <hr class="bg-slate-200 h-0.5 my-6" />
+
+      <div class="text-titleText mt-8 flex justify-evenly w-60">
+        <i class="fa-brands fa-facebook fa-2xl mr-2"></i>
+        <i class="fa-brands fa-pinterest fa-2xl mr-2"></i>
+        <i class="fa-brands fa-instagram-square fa-2xl mr-2"></i>
+        <i class="fa-brands fa-youtube fa-2xl mr-2"></i>
+        <i class="fa-brands fa-twitter fa-2xl mr-2"></i>
+      </div>
+
+      <div class="flex flex-col md:flex-row justify-between w-fit mt-8">
+        <p class="mr-4 text-lg">Privacy Policy</p>
+        <p class="mr-4 text-lg hidden md:inline">|</p>
+        <p class="mr-4 text-lg">Term of Use</p>
+        <p class="mr-4 text-lg hidden md:inline">|</p>
+        <p class="mr-4 text-lg">CA Supply Chain Act</p>
+        <p class="mr-4 text-lg hidden md:inline">|</p>
+        <p class="mr-4 text-lg">Cookie Preferences</p>
+      </div>
+
+      <p class="text-lightText text-sm md:text-xl mt-6 text-gray-400 my-4 pb-8">
+        © 2022 Starbucks Coffee Company. All rights reserved.
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
