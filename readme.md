@@ -17,3 +17,7 @@ it's take near about 5 to 6 Hour to complete with mobile responsive.
 ## Deployed link
 
 [starbicks-clone-shailraj](https://starbucks-clone-shailraj.netlify.app/)
+
+## Blog link
+
+[Blog link](https://shailraj24.hashnode.dev/first-project-using-tailwind-css-starbucks-clone)
